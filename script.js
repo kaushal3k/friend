@@ -5,7 +5,7 @@ var addf = document.querySelector("#add")
 var check = 0
 
 
-addf.addEventListener("mouseover" , function(){
+addf.addEventListener("click" , function(){
     if (check == 0){
         istatus.innerHTML= "Friends"
         istatus.style.color = "green"
